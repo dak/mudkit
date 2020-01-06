@@ -401,7 +401,7 @@ MUDKit.prototype.processChunk = function (chunk, encoding) {
                 mudkit.sendCommand([DONT, GCMP]);
                 break;
             default:
-                console.log('Unkown WILL telopt: ' + opt);
+                console.log('Unknown WILL telopt: ' + opt);
             }
             break;
 
@@ -415,12 +415,12 @@ MUDKit.prototype.processChunk = function (chunk, encoding) {
                 break;
 
             default:
-                console.log('Unkown WONT telopt: ' + opt);
+                console.log('Unknown WONT telopt: ' + opt);
             }
             break;
 
         default:
-            console.log('Unkown command: ' + cmd);
+            console.log('Unknown command: ' + cmd);
         }
     }
 
