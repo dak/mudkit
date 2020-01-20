@@ -1,4 +1,5 @@
 {
   "type": "module",
-  "main": "./mudkit.js"
+  "main": "./mudkit.js",
+  "dependencies": {}
 }
