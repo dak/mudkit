@@ -1,5 +1,21 @@
 {
-  "type": "module",
-  "main": "./mudkit.js",
-  "dependencies": {}
+    "name": "mudkit",
+    "version": "0.1.0",
+    "description": "Service to manage a telnet connection to a MUD and transform output to JSON",
+    "main": "index.js",
+    "scripts": {
+        "test": "npm run test"
+    },
+    "keywords": [
+        "MUD",
+        "telnet",
+        "mxp",
+        "mccp",
+        "gmcp",
+        "vt100"
+    ],
+    "author": "Derek Kent",
+    "license": "ISC",
+    "type": "module",
+    "dependencies": {}
 }
