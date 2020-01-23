@@ -3,8 +3,13 @@
     "version": "0.1.0",
     "description": "Service to manage a telnet connection to a MUD and transform output to JSON",
     "main": "index.js",
+    "module": "lib/mudkit.js",
     "scripts": {
         "test": "npm run test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dak/mudkit.git"
     },
     "keywords": [
         "MUD",
